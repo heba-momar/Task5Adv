@@ -1,0 +1,66 @@
+:root{
+    --color-text: #6C6C6C;
+    --yellow: #FFCE26;
+  --light-yellow: #FFF2C6;
+  --orange: #FD7238;
+  --color-sidbar: #F2EAE1;
+  --color-black: #000000;
+  --color-search:#E5E5E5;
+   --grey04: #C4C4C4;
+   --color-border:#cbd5e0;
+   --bg-border:#f9f9ff;
+   --red-color:#FE0000;
+     --grey151: #F1F1F1;
+     --color-p:#333333;
+     --color-white: #fff;
+      --orange00: #FEAF00;
+  --orange01: #F8D442;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.borders{
+border: 1px solid #E5E5E5 !important;
+}
+.box-shadwaa{
+box-shadow: 2px 5px 10px 0px #0000001A !important;
+
+}
+.pading{
+  padding: 175px 0px !important;
+}
+.padding-30{
+    padding:20px 30px !important ;
+}
+.w-90{
+    width: 90% !important;
+}
+/*.grandenite{
+  background-color:linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%)!important ;
+}*/
+.form-auth{
+    background: linear-gradient(71.17deg, var(--orange00) 19.35%, var(--orange01) 90.12%)
+} 
+.form-p{
+  color: var(--color-text) !important;
+}
+.bg-orange{
+  background-color: var(--orange00) !important;
+}
+.fs-60{
+  font-size: 60px;
+}
+@media (max-width: 1439px) {
+  .fs-60{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .fs-60{
+    font-size: 25px;
+  }
+}

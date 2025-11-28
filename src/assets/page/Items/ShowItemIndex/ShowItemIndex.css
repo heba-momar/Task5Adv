@@ -1,0 +1,41 @@
+.itemShowWapper {
+  padding-top: 2dvh;
+  padding-bottom: 4dvh;
+} 
+  .itemShowTitle {
+    margin-bottom:2.5dvh;
+    margin-top: 5.5dvh;
+  }
+  .itemShowSpan {
+    color: #8080808C !important;
+  }
+  
+  .itemShowImage {
+      width: 350px;
+      height: 39dvh;
+  }
+
+  .itemShowPrice{
+      margin-top: 2.5dvh;
+  }
+
+  @media (max-width: 1439px) {
+    .itemShowWapper {
+      padding-top: 1vh;
+      padding-bottom: 1vh;
+    }
+    
+    .itemShowTitle {
+      margin-bottom: 1.5vh;
+      margin-top: 3vh;
+    }
+
+    .itemShowImage {
+        width: 250px;
+        height: 250px;
+    }
+
+    .itemShowPrice{
+      margin-top: 1.9vh
+    }
+  }

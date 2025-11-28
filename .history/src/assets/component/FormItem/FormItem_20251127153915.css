@@ -1,0 +1,9 @@
+.formWrapper {
+ padding-top:30px !important;
+ padding-left: 33px!important;
+
+}
+.formTitle {
+    margin:  3.4dvh 0;
+    color: var(--black-color);
+}

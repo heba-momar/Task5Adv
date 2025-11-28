@@ -1,0 +1,27 @@
+:root{
+    --color-text: #6C6C6C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.borders{
+border: 1px solid #E5E5E5 !important;
+}
+.box-shadwaa{
+box-shadow: 2px 5px 10px 0px #0000001A !important;
+
+}
+.pading{
+  padding: 175px 0px !important;
+}
+.padding-30{
+    padding:20px 30px !important ;
+}
+.w-90{
+    width: 90% !important;
+}
+/*.grandenite{
+  background-color:linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%)!important ;
+}*/

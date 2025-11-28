@@ -1,0 +1,11 @@
+.formWrapper {
+    /*padding-top:30px !important;*/
+padding-top: 24px !important;
+padding-left: 334px !important;
+
+}
+
+.formTitle {
+    margin:  3.4dvh 0;
+    color: var(--black-color);
+}
