@@ -4,6 +4,7 @@ import type { Input, item } from "../../../interfaces/interfaces"
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
+
 const EditItem = () => {
     const { id } = useParams();
     const navigate=useNavigate()
@@ -67,6 +68,7 @@ const price= useRef<HTMLInputElement>(null!);
     navigate("/dashbord/Items") 
    })
    //.catch(err=>console.log(err))
+   
    function sendData(event: FormEvent) {
     event.preventDefault();
   }    

@@ -64,11 +64,12 @@ const price= useRef<HTMLInputElement>(null!);
             )
    .then(res=>{  console.log(res)
    // alert("edit product susscufly")
-    navigate("/dashbord/Items") 
+  
    })
    //.catch(err=>console.log(err))
    function sendData(event: FormEvent) {
     event.preventDefault();
+      navigate("/dashbord/Items") 
   }    
   return (
     <div>

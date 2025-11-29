@@ -11,7 +11,7 @@ const FormItem =forwardRef <HTMLFormElement,ItemForm> (({TittelForm,inputs,onSub
     <div className=" formWrapper container-lg ">
       <BackButton To="/dashbord/Items"/>
       <h2 className="formTitle fw-semibold fs-60"> {TittelForm}</h2>
-      <Form onSubmit={onSubmit} >
+      <Form onSubmit={onSubmit} ref={ref}>
         <div className="d-flex gap-5 align-items-start flex-wrap flex-lg-nowrap">
             <div className="d-flex flex-column formFields flex-fill">
              {inputs.map((input,index)=>{

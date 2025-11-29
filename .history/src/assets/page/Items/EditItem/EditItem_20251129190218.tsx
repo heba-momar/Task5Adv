@@ -4,6 +4,8 @@ import type { Input, item } from "../../../interfaces/interfaces"
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
+//tsx
+//"I have an issue where when I navigate to the add or edit item page, the form inputs immediately render and redirect back before I can type anything. It also sends the old values instead of the new ones. Can you help me fix this issue?"
 const EditItem = () => {
     const { id } = useParams();
     const navigate=useNavigate()
