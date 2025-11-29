@@ -68,6 +68,7 @@ const price= useRef<HTMLInputElement>(null!);
     navigate("/dashbord/Items") 
    })
    //.catch(err=>console.log(err))
+   //"I have an issue where when I navigate to the add or edit item page, the form inputs immediately render and redirect back before I can type anything. It also sends the old values instead of the new ones. Can you help me fix this issue?"
    function sendData(event: FormEvent) {
     event.preventDefault();
   }    

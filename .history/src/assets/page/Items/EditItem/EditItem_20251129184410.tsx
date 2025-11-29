@@ -30,6 +30,7 @@ const price= useRef<HTMLInputElement>(null!);
        defaultValue:oldData?.price
       },]
     useEffect(() => {
+          useEffect(() => {
         getItem();
       }, []);
       var getItem=()=>{
@@ -64,12 +65,12 @@ const price= useRef<HTMLInputElement>(null!);
                 }
             )
    .then(res=>{  console.log(res)
-   // alert("edit product susscufly")
+    alert("edit product susscufly")
     navigate("/dashbord/Items") 
    })
    //.catch(err=>console.log(err))
-   function sendData(event: FormEvent) {
-    event.preventDefault();
+   const sendData=(event :FormEvent)=>{
+   event.preventDefault()  
   }    
   return (
     <div>

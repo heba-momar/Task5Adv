@@ -68,8 +68,8 @@ const price= useRef<HTMLInputElement>(null!);
     navigate("/dashbord/Items") 
    })
    //.catch(err=>console.log(err))
-   function sendData(event: FormEvent) {
-    event.preventDefault();
+   const sendData=(event :FormEvent)=>{
+   event.preventDefault()  
   }    
   return (
     <div>

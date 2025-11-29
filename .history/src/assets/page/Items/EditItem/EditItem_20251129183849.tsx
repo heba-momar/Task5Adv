@@ -30,9 +30,6 @@ const price= useRef<HTMLInputElement>(null!);
        defaultValue:oldData?.price
       },]
     useEffect(() => {
-        getItem();
-      }, []);
-      var getItem=()=>{
            axios.get(`https://dashboard-i552.onrender.com/api/items/${id}`, {
             headers: {
             "Accept": "application/json",
@@ -47,7 +44,7 @@ const price= useRef<HTMLInputElement>(null!);
             .catch((err) => {
                 console.error("Error fetching item:", err);
             });
-               }
+      }, []);
       
  axios.post(`https://dashboard-i552.onrender.com/api/items/${id}`,{
     name: name?.current?.value,
@@ -64,12 +61,12 @@ const price= useRef<HTMLInputElement>(null!);
                 }
             )
    .then(res=>{  console.log(res)
-   // alert("edit product susscufly")
+    alert("edit product susscufly")
     navigate("/dashbord/Items") 
    })
    //.catch(err=>console.log(err))
-   function sendData(event: FormEvent) {
-    event.preventDefault();
+   const sendData=(event :FormEvent)=>{
+   event.preventDefault()  
   }    
   return (
     <div>
